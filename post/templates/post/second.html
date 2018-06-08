@@ -1,0 +1,12 @@
+{% extends 'post/layout.html' %}
+
+{% block content %}
+<h1 class="flash">{{ title }}</h1>
+{% for m in comments %}
+<div class="container">
+        <p>{{ m.name }}</p>
+        <p>{{ m.comment }}</p>
+</div>
+{% endfor %}
+
+{% endblock %}
