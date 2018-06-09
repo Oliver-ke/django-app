@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import  Comment
 from .models import  post
 from .forms import CommentForm
-
+from django.contrib.auth import authenticate, login
 
 
 # def index(request):
@@ -34,13 +34,13 @@ def user_login(request):
             # Save session as cookie to login the user
             login(request, user)
             # Success, now let's login the user. 
-            return render(request, 'ecommerce/user/account.html')
+            return render(request, 'post/succes.html')
         else:
             # Incorrect credentials, let's throw an error to the screen.
-            return render(request, 'ecommerce/user/login.html', {'error_message': 'Incorrect username and / or password.'})
+            return render(request, 'post/login.html', {'error_message': 'Incorrect username and / or password.'})
     else:
         # No post data availabe, let's just show the page to the user.
-        return render(request, 'ecommerce/user/login.html')
+        return render(request, 'post/login.html')
 
 
 
