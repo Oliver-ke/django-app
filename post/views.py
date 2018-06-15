@@ -22,7 +22,6 @@ def sign(request):
 	context = {'form': form}
 	return render(request, 'post/form.html', context)
 # Create your views here.
-
 def user_login(request):
     if request.method == 'POST':
         # Process the request if posted data are available

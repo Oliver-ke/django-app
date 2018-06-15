@@ -112,15 +112,17 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
+            {% for m in posts %}
           <div class="col-md-7">
-              {% for m in posts %}
+              
             <h2 class="featurette-heading">{{ m.title }}<span class="text-muted">Checkmate.</span></h2>
             <p class="lead">{{ m.body }}</p>
-              {% endfor %}  
+               
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
           </div>
+          {% endfor %} 
         </div>
 
         <hr class="featurette-divider">

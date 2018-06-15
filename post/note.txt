@@ -1,0 +1,13 @@
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/path/to/a-152-193253.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/path/to/a-144-193253.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/path/to/a-120-193253.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/path/to/a-114-193253.png">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/path/to/a-72-193253.png">
+
+<link rel="apple-touch-icon-precomposed" href="/path/to/a-57-193253.png">
+
+<link rel="icon" href="/path/to/a-32-193253.png" sizes="32x32">
